@@ -1,5 +1,12 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-ncw-swift-v2 (2.0.1-1.1) unstable; urgency=medium
 
-  * Initial release
+  * Non-maintainer upload.
+  * source only upload to enable migration
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Paul Gevers <elbrus@debian.org>  Thu, 18 Aug 2022 11:37:11 +0200
+
+golang-github-ncw-swift-v2 (2.0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1012706)
+
+ -- Félix Sipma <felix@debian.org>  Sun, 12 Jun 2022 11:32:57 +0200
