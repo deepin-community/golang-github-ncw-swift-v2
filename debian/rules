@@ -1,4 +1,8 @@
 #!/usr/bin/make -f
 
+override_dh_auto_test:
+	# some tests want to hit a remote API and spin up remote resources ($$$$) so skip them
+	DH_GOLANG_EXCLUDES='github.com/ncw/swift/v2/rs' dh_auto_test
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
