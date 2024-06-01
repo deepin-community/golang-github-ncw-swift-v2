@@ -1,3 +1,9 @@
+golang-github-ncw-swift-v2 (2.0.1-1.1deepin1) unstable; urgency=medium
+
+  * Remove .gitignore and it's patch
+
+ -- xiangzelong <xiangzelong@deepin.org>  Sat, 01 Jun 2024 14:00:58 +0800
+
 golang-github-ncw-swift-v2 (2.0.1-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
